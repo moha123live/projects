@@ -1,0 +1,40 @@
+.cus-top{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+.cus-input{
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 60px;
+  text-align:right;
+  padding:5px;
+}
+
+@media only screen and (min-width: 700px) {
+    .cus-input {
+        width: 150px;
+    }
+}
+table {
+  border-collapse: collapse;
+}
+
+#billingTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#billingTable tr:hover {background-color: #ddd;}
+
+#billingTable th {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid black;
+}
+
+
+#billingTable th, td, tr {
+  border: 1px solid black;
+}
+
+#billingTable {
+  margin-top: 10px;
+}
